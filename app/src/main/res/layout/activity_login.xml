@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fm"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:contentDescription="background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_qq_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/len_10"
+            android:text="@string/qq_login"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/btn_wx_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/len_10"
+            android:text="@string/wx_login"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/ll_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/len_10"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/help_and_suggest" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_navigate_next_24" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cb_agree_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/len_5"
+            android:text="@string/read_privacy"
+            android:textColor="@color/white"
+            android:button="@drawable/check_selector"
+            android:layout_marginStart="@dimen/len_5"
+            android:layout_marginEnd="@dimen/len_5"
+            android:textSize="@dimen/font_11sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

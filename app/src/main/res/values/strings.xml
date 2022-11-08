@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LolDict</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="wx_login">微信登录</string>
+    <string name="help_and_suggest">帮助与反馈</string>
+    <string name="read_privacy">我已阅读并同意《XXX软件许可及服务协议》、《掌上XXX隐私保护指引》、《儿童隐私保护声明》和《第三方共享个人信息清单》</string>
+</resources>
